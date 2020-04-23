@@ -1,0 +1,6 @@
+form(action="./todos",method="get")
+  input(name="q",type="text")
+  button search
+ul
+  each todo in todos
+    li= todo
